@@ -1,8 +1,7 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -15,7 +14,7 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 999; 
 }
 
 .navbar__container{
@@ -23,7 +22,7 @@
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    width: 100px;
+    width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
@@ -31,7 +30,7 @@
 
 #navbar__logo{
     background-color: #ff8177;
-    background-color: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to-top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -43,35 +42,38 @@
     text-decoration: none;
     font-size: 2rem;
 }
+
 .navbar__menu{
     display: flex;
     align-items: center;
-    list-style: none;   
+    list-style: none;
 }
+
 .navbar__item{
     height: 80px;
 }
+
 .navbar__links{
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 125px;
+    width: 130px;
     text-decoration: none;
     height: 100%;
 }
 
 .navbar__btn{
     display: flex;
-    justify-self: flex;
-    align-items: center;
+    justify-content: center;
+    align-self: center;
     padding: 0 1rem;
     width: 100%;
 }
 
 .button{
     display: flex;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
@@ -79,11 +81,10 @@
     width: 100%;
     border: none;
     outline: none;
-    border-radius:  4px;
+    border-radius: 4px;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     color: #fff;
     transition: all 0.3s ease;
-
 }
