@@ -195,6 +195,7 @@
      background: #000000;
      background: linear-gradient(to right, #161616, #000000);
      padding: 200px 0;   
+     color: #fff;
  }
  .hero__container{
      display: flex;
